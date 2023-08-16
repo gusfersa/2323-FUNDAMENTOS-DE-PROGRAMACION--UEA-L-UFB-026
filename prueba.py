@@ -1,3 +1,6 @@
+#Author: Gustavo Fernandez
+print('Serie de Fibonacci en Phyton')
+
 def fib(n):
     if n < 2:
         return n
