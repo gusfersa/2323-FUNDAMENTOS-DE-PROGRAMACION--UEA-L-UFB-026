@@ -13,4 +13,4 @@ arr = \
         [40, 50, 60]
     ]
 
-print(arr[1][1])
+print(f'Para acceder al valor {arr[1][1]} utilizamos el indice arr[1][1]')
