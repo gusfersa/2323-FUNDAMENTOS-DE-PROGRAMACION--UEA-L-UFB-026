@@ -1,8 +1,8 @@
 import random
 
 # Create a 4x4 matrix with hidden values
-rows = 2
-cols = 2
+rows = 4
+cols = 4
 matrix = [[random.randint(1, 9) for _ in range(cols)] for _ in range(rows)]
 revealed_matrix = [[' ' for _ in range(cols)] for _ in range(rows)]
 
