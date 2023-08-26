@@ -1,8 +1,8 @@
 import random
 
 # Create a 4x4 matrix with hidden values
-rows = 4
-cols = 4
+rows = 2
+cols = 2
 matrix = [[random.randint(1, 9) for _ in range(cols)] for _ in range(rows)]
 revealed_matrix = [[' ' for _ in range(cols)] for _ in range(rows)]
 
@@ -32,6 +32,10 @@ while True:
 
     play_again = input("Do you want to play again? (yes/no): ")
     if play_again.lower() != 'yes':
+        for row in matrix:
+            print(' | '.join(map(str, row)))
+            print('-' * (cols * 4 - 1))
+        print(matrix)
         break
 
 print("Thanks for playing!")

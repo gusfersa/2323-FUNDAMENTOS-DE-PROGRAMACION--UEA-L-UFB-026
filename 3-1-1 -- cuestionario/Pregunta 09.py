@@ -7,6 +7,8 @@
 #c. arr[2][1][2] = 15;
 #d. arr[1][0][1] = 15; (Correcto)
 
+arr = [[[1, 2], [3, 4]], [[5, 6], [7, 8]]]
+
 arr = \
     [
         [
@@ -19,6 +21,6 @@ arr = \
         ]
     ]
 
-print(arr)
+print(f'Arreglo original: {arr}')
 arr[1][0][1] = 15
-print(arr)
+print(f'Arreglo modificado: {arr}')

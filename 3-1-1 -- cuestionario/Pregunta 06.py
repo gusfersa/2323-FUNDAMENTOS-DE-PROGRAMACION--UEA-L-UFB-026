@@ -29,6 +29,6 @@ arr = \
 
 print(arr)
 
-arr = [[[random.randint(1, 9) for _ in range(4)] for _ in range(3)] for _ in range(2)]
+arr = [[[random.randint(1, 99) for _ in range(4)] for _ in range(3)] for _ in range(2)]
 
 print(arr)

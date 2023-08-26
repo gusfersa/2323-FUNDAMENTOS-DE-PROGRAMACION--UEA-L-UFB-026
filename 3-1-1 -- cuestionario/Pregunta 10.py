@@ -13,6 +13,6 @@ arr = \
         [3, 4]
     ]
 
-print(arr)
+print(f'Arreglo inicial: {arr}')
 arr[1][1] = 10
-print(arr)
+print(f'Arreglo modificado: {arr}')
