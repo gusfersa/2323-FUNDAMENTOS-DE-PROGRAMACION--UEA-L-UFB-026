@@ -120,3 +120,13 @@ temperaturas = [
 ]
 
 # Calcular el promedio de temperaturas para cada ciudad y semana
+iciu=0
+for ciudad in temperaturas:
+    iciu+=1
+    isem=0
+    print(f'Ciudad No: {iciu}')
+    for semana in ciudad:
+        isem+=1
+        print(f'Semana No: {isem}')
+        for dia in semana:
+            print(f'{dia["day"]} >> {dia["temp"]}')
