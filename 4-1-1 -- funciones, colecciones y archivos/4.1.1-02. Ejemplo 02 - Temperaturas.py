@@ -1,11 +1,9 @@
 def temperatura_promedio(ciudades_temperaturas):
     """
     Esta función calcula la temperatura promedio de un conjunto de ciudades.
-
     Args:
         ciudades_temperaturas (dict): Un diccionario que contiene nombres de ciudades como claves
                                       y listas de temperaturas como valores.
-
     Returns:
         dict: Un diccionario que contiene nombres de ciudades como claves
               y temperaturas promedio como valores.
