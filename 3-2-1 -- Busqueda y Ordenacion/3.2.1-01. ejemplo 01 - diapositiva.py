@@ -1,4 +1,4 @@
-# Crear una matriz bidimensional (2x2) para el ejemplo
+# Crear una matriz bidimensional (2x2) para el ejemplo.txt
 matriz = [
     [5, 2],
     [3, 1]

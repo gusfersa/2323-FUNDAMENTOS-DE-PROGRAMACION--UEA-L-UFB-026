@@ -1,0 +1,2 @@
+Línea 1: Esto es una prueba.
+Línea 2: Aprendiendo lectura de archivos en Python.

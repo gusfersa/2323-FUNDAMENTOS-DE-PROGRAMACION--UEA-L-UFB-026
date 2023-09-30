@@ -1,0 +1,4 @@
+Línea 1: Esto es una prueba.
+Línea 2: Escribiendo en archivos con Python.
+Línea 3: Otro ejemplo.
+Línea 4: Finalizando el ejemplo.

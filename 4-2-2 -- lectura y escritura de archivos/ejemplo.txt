@@ -1,0 +1,2 @@
+¡Hola, mundo!
+Este es un ejemplo.txt de apertura y escritura en Python.

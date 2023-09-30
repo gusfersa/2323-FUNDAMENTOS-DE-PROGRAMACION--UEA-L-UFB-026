@@ -1,4 +1,4 @@
-# Crear una matriz bidimensional (3x3) para el ejemplo
+# Crear una matriz bidimensional (3x3) para el ejemplo.txt
 matriz = [
     [4, 7, 2],
     [1, 9, 6],
@@ -29,7 +29,7 @@ else:
     print(f"{valor_buscado} no se encontró en la matriz.")
 
 
-# En este ejemplo:
+# En este ejemplo.txt:
 # - Creamos una matriz 3x3 para representar nuestros datos.
 # - Especificamos el valor que estamos buscando (en este caso, 9).
 # - Usamos dos bucles "for" anidados para recorrer la matriz y buscar el valor deseado.

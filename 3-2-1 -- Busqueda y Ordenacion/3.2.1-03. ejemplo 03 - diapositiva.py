@@ -1,4 +1,4 @@
-# Crear una matriz bidimensional (3x3) para el ejemplo
+# Crear una matriz bidimensional (3x3) para el ejemplo.txt
 matriz = [
     [5, 2, 9],
     [3, 7, 1],
@@ -31,7 +31,7 @@ print("\nMatriz Ordenada por Filas:")
 mostrar_matriz(matriz)
 
 
-# En este ejemplo:
+# En este ejemplo.txt:
 # Creamos una matriz 3x3 para representar nuestros datos.
 # Implementamos la función bubble_sort_fila que utiliza el algoritmo del Método de la Burbuja para ordenar una fila de manera ascendente.
 # Utilizamos un bucle para recorrer cada fila de la matriz y aplicar bubble_sort_fila para ordenar las filas individualmente.
